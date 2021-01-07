@@ -1,0 +1,14 @@
+{
+  "name": "sudoku-solver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "tape 'test/unit/**/*.spec.js'"
+  },
+  "author": "Derek Mayer",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "5.1.1"
+  }
+}
