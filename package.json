@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "tape 'test/unit/**/*.spec.js'"
+    "test": "tape test/unit/**/*.spec.js"
   },
   "author": "Derek Mayer",
   "license": "ISC",
