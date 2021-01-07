@@ -3,7 +3,7 @@
 function SudokuSolver() {
   /*
    * Check if the number is a legal candidate
-   * for the given cell (by Sudoku rules).
+   * for the given cell
    */
   function checkCandidate(puzzleArray, currentNumber, row, column) {
     let validCandidate = true;
@@ -29,8 +29,8 @@ function SudokuSolver() {
   }
 
   /*
-   * Recursively test all possible numbers for a given cell until
-   * the puzzle is solved.
+   * Test all possible numbers for a given cell until
+   * the puzzle is solved
    */
   function getCandidate(index, puzzleArray) {
     if (index >= puzzleArray.length) {
@@ -99,7 +99,7 @@ function SudokuSolver() {
 
     const puzzleArray = puzzle.split('').map((v) => parseInt(v));
 
-    // Start solving on index 0;
+    // Start solving on index 0
     const solution = getCandidate(0, puzzleArray);
 
     if (!solution) {
