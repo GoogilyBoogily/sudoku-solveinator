@@ -110,8 +110,4 @@ function SudokuSolver() {
   }
 }
 
-const solver = new SudokuSolver();
-
-const result = solver.solve('001700509573024106800501002700295018009400305652800007465080071000159004908007053');
-
 module.exports = SudokuSolver;
